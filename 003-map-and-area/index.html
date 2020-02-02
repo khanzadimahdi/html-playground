@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML map and area tag</title>
+    <style>
+      map {
+        display: inline;
+      }
+      area {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    hover on solar system to see the result of image map
+    <br>
+    <br>
+    <img usemap="#solar_system" src="images/solar-system.jpg" alt="solar system">
+    <map id="solar_system" name="solar_system">
+      <area id="sun" title="Sun" shape="circle" coords="1,575,162" href="https://en.wikipedia.org/wiki/Solar_System#Sun" alt="">
+      <area id="mercury" title="Mercury" shape="circle" coords="222,464,56" href="https://en.wikipedia.org/wiki/Solar_System#Mercury" alt="Mercury">
+      <area id="venus" title="Venus" shape="circle" coords="328,414,50" href="https://en.wikipedia.org/wiki/Solar_System#Venus" alt="Venus">
+      <area id="earth" title="Earth" shape="circle" coords="453,357,72" href="https://en.wikipedia.org/wiki/Solar_System#Earth" alt="Earth">
+      <area id="moon" title="Moon" shape="circle" coords="480,261,14" href="https://en.wikipedia.org/wiki/Solar_System#Moon" alt="Moon">
+      <area id="mars" title="Mars" shape="circle" coords="565,315,43" href="https://en.wikipedia.org/wiki/Solar_System#Mars" alt="Mars">
+      <area id="jupiter" title="Jupiter" shape="circle" coords="650,274,41" href="https://en.wikipedia.org/wiki/Solar_System#Jupiter" alt="Jupiter">
+      <area id="saturn" title="Saturn" shape="poly" coords="752,169,705,184,674,217,690,248,718,259,749,264,787,265,836,251,854,238,873,215,870,191,846,171,799,163" href="https://en.wikipedia.org/wiki/Solar_System#Saturn" alt="Saturn">
+      <area id="uranus" title="Uranus" shape="poly" coords="880,174,870,140,888,128,909,124,931,134,940,151,942,165,939,181,910,191" href="https://en.wikipedia.org/wiki/Solar_System#Uranus" alt="Uranus">
+      <area id="neptune" title="Neptune" shape="rect" coords="947,91,1012,147" href="https://en.wikipedia.org/wiki/Solar_System#Neptune" alt="Neptune">
+    </map>
+  </body>
+</html>
