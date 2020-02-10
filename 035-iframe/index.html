@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML iframe tag</title>
+    <style media="screen">
+      iframe:focus {
+        outline: none;
+      }
+      iframe {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      The <b>iframe</b> tag specifies an inline frame.
+    </p>
+    <p>
+      An inline frame is used to embed another document
+      within the current HTML document.
+    </p>
+
+    <iframe src="https://google.com" ></iframe>
+    <iframe src="https://bing.com" ></iframe>
+    <iframe srcdoc="<p>this is a paragraph</p>">
+      <p>Your browser does not support iframes.</p>
+    </iframe>
+  </body>
+</html>

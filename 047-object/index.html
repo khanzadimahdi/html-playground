@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML picture tag</title>
+  </head>
+  <body>
+
+    <p>
+        The <b>img</b> element is required as the last child tag of the
+        <b>picture</b> declaration block.
+        The <b>img</b> element is used to provide backward compatibility for
+        browsers that do not support the <b>picture</b> element,
+        or if none of the <b>source</b> tags matched.
+    </p>
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+      <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+      <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+
+  </body>
+</html>

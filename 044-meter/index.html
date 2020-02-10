@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML meter tag</title>
+  </head>
+  <body>
+
+    <p>
+      The <b>meter</b> tag defines a scalar measurement within a known range,
+      or a fractional value. This is also known as a gauge.<br>
+      Examples: Disk usage, the relevance of a query result, etc.
+    </p>
+
+    <p>
+      <b>Note:</b><br>
+        The <b>meter</b> tag should not be used to indicate progress (as in a progress bar).
+        For progress bars, use the <b>progress</b> tag.
+    </p>
+
+    <p>
+      Tip: 
+        Always add the <b>label</b> tag for best accessibility practices!
+    </p>
+
+
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.9" min="0" max="1" low="0.3" optimum="0.5" high="0.8">60%</meter>
+
+  </body>
+</html>
